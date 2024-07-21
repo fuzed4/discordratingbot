@@ -1,3 +1,5 @@
+#evil rating bot#
+
 A discord game bot that makes you decide which of two images I find funnier.  
 
 Made entirely in Python.
