@@ -28,7 +28,7 @@ class singlebutton(discord.ui.View):
               button.disabled = True
               await interaction.message.delete()
 
-class triobuttons(discord.ui.View):
+class triobuttons(discord.ui.View): # class of buttons that let you choose between picture 1, same, picture 2 
       def __init__(self, *, timeout=180):
         super().__init__(timeout=timeout)
         self.decision = None
